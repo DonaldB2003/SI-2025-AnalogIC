@@ -1,11 +1,11 @@
-#🛠️ SI-2025-AnalogIC-Design Internship
-##📝 Abstract
+# 🛠️ SI-2025-AnalogIC-Design Internship
+## 📝 Abstract
 This repository documents my summer internship journey (June 2025) at Silicon University’s Advanced VLSI Lab, focusing on the design, simulation, and layout of Analog Integrated Circuits (ICs). The program emphasized hands-on learning with industry-standard tools, covering everything from device physics to post-layout verification. The highlight was the design and analysis of a two-stage CMOS operational amplifier, equipping me with practical skills for a career in VLSI and semiconductor technology.
 
-##📚 Introduction
+## 📚 Introduction
 Analog ICs are the backbone of real-world signal processing, powering applications from sensor interfaces to communications. This internship offered a structured exploration of analog design, blending theory with practical labs using Cadence Virtuoso, LTspice, and open-source EDA tools.
 
-##🏛️ Internship Details
+## 🏛️ Internship Details
 Venue: Room 656, 5th Floor, New Admin Building, Silicon University 🏢
 
 Duration: June 2nd – June 20th, 2025 📆
@@ -14,7 +14,7 @@ Timings: 10:00am–1:00pm, 2:30pm–5:30pm ⏰
 
 Resource Persons: Dr. Saroj Rout, Prof. Prasant Swain, Mrinal Das 👨‍🏫
 
-##🗂️ Table of Contents
+## 🗂️ Table of Contents
 Project Overview
 
 Design Flow
