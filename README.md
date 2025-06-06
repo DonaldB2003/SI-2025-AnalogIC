@@ -46,16 +46,15 @@ graph TD;
     E --> F[Post-Layout Simulation]
     F --> G[Documentation]
 
+
 ##🛠️ Tools Used
-Cadence Virtuoso (Schematic/Layout) 🖥️
-
-LTspice (Simulation) ⚡
-
-Magic VLSI, Xschem, ngspice (Open-source EDA) 🧰
-
-Python/Matlab (Data analysis) 📊
-
-Skywater 130nm PDK 🏭
+<ul>
+    <li>Cadence Virtuoso (Schematic/Layout) 🖥️</li>
+    <li>-LTspice (Simulation) ⚡</li>
+    <li>Magic VLSI, Xschem, ngspice (Open-source EDA) 🧰</li>
+    <li>Python/Matlab (Data analysis) 📊</li>
+    <li>Skywater 130nm PDK 🏭</li>
+</ul>
 
 ## 🧪 Lab Modules
 ### Lab 1: CMOS Inverter Design
@@ -105,38 +104,28 @@ Follow /docs/layout_instructions.md for DRC/LVS.
 Run simulation scripts in the /scripts folder.
 
 ## 📚 Resources
-Textbooks:
+### Textbooks:
+<ul>
+    <li>T. C. Carusone, D. A. Johns, K. A. Martin, Analog Integrated Circuit Design</li>
+    <li>John P. Uyemura, CMOS Logic Circuit Design</li>
+    <li>R. Jacob Baker, CMOS: Circuit Design, Layout, and Simulation</li>
 
-T. C. Carusone, D. A. Johns, K. A. Martin, Analog Integrated Circuit Design
+### Useful Docs:
+<ul>
+    <li>Skywater PDK Manual</li>
+    <li>OPA344 Datasheet</li>
+    <li>Schematic/Layout Tutorials (Xschem, ngspice, Magic)</li>
+</ul>
 
-John P. Uyemura, CMOS Logic Circuit Design
 
-R. Jacob Baker, CMOS: Circuit Design, Layout, and Simulation
+## 🙏 Acknowledgments:
+This program would not have been possible without the guidance and support of my mentors *Dr. Saroj Rout* and teammates .Your expertise and encouragement have been instrumental in my learning and development.
 
-Useful Docs:
+Here is the link of full course described by Dr. Saroj Rout https://github.com/silicon-vlsi/SI-2025-AnalogIC
 
-Skywater PDK Manual
-
-OPA344 Datasheet
-
-Schematic/Layout Tutorials (Xschem, ngspice, Magic)
-
-## 🙏 Acknowledgements
-Special thanks to Dr. Saroj Rout, Prof. Prasant Swain, and Mrinal Das for their mentorship, and to the Advanced VLSI Lab team for a collaborative learning environment.
 
 ## 📄 License
 MIT License
 
 “Analog design is where art meets engineering.” 🎨⚙️
 
-Tips for further enhancement:
-
-Add more images (schematics, layouts, simulation results) from your own work as you progress.
-
-Use more emojis for section headers:
-
-📖 for theory, 🧪 for labs, 🖼️ for images, 📊 for results, 🧑‍💻 for instructions, 📚 for resources, 🙏 for acknowledgements.
-
-Keep your README updated as you complete each lab.
-
-This structure will make your GitHub page professional, visually appealing, and easy to navigate for peers and recruiters alike
