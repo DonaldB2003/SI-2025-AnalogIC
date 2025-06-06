@@ -23,6 +23,7 @@ Resource Persons: Dr. Saroj Rout, Prof. Prasant Swain, Mrinal Das 👨‍🏫
     <li>Acknowledgements</li>
     <li>License</li>
 </ul>
+
 ## 🚀 Project Overview
 The internship covered the complete analog IC design flow:
 
@@ -47,7 +48,7 @@ graph TD;
     F --> G[Documentation]
 
 
-##🛠️ Tools Used
+## 🛠️ Tools Used
 <ul>
     <li>Cadence Virtuoso (Schematic/Layout) 🖥️</li>
     <li>-LTspice (Simulation) ⚡</li>
