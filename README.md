@@ -84,7 +84,7 @@ Python scripts for batch simulation and plotting
 
 ## 📈 Results & Analysis
 |Metric	Target	|Pre-Layout	|Post-Layout|
-|...............|...........|...........|
+|-----------------|-----------|-----------|
 |DC Gain (dB)|	>60|	72|	68|
 |UGB (MHz)	|>10	|15	|13.5|
 |Phase Margin (°)|	>60|	75	|70|
