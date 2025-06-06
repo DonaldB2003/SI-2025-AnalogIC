@@ -98,6 +98,8 @@ Python scripts for batch simulation and plotting
 |Phase Margin (°)|	>60|	75	|70|
 |Power (µW)|	<500|	420|	430|
 Offset (mV)	|<5	|2.1	|2.5|
+|ganthia|pranav|jyoti|
+
 
 Sample simulation plot:
 
