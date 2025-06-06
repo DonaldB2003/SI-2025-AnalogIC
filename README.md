@@ -7,30 +7,19 @@ Analog ICs are the backbone of real-world signal processing, powering applicatio
 
 ## 🏛️ Internship Details
 Venue: Room 656, 5th Floor, New Admin Building, Silicon University 🏢
-
 Duration: June 2nd – June 20th, 2025 📆
-
 Timings: 10:00am–1:00pm, 2:30pm–5:30pm ⏰
-
 Resource Persons: Dr. Saroj Rout, Prof. Prasant Swain, Mrinal Das 👨‍🏫
 
 ## 🗂️ Table of Contents
 Project Overview
-
 Design Flow
-
 Tools Used
-
 Lab Modules
-
 Results & Analysis
-
 How to Run
-
 Resources
-
 Acknowledgements
-
 License
 
 ## 🚀 Project Overview
@@ -68,7 +57,7 @@ Python/Matlab (Data analysis) 📊
 Skywater 130nm PDK 🏭
 
 ## 🧪 Lab Modules
-Lab 1: CMOS Inverter Design
+### Lab 1: CMOS Inverter Design
 Schematic and DC transfer characteristics
 
 ![CMOS Inverter Schematic](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/inverter 2: Current Mirror
@@ -79,7 +68,7 @@ Simple and cascode current mirrors
 
 Biasing, common-mode, and differential-mode gain
 
-Lab 4: Two-Stage Op-Amp
+### Lab 4: Two-Stage Op-Amp
 Schematic, frequency response, phase margin
 
 ![Op-Amp Schematic](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/opamp_s 5: Layout of Analog Cells
@@ -90,7 +79,7 @@ Matching techniques, parasitic extraction
 
 Offset, speed analysis, transient simulation
 
-Lab 7: Automation Scripts
+### Lab 7: Automation Scripts
 Python scripts for batch simulation and plotting
 
 ## 📈 Results & Analysis
