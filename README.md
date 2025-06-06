@@ -98,7 +98,6 @@ Python scripts for batch simulation and plotting
 |Phase Margin (°)|	>60|	75	|70|
 |Power (µW)|	<500|	420|	430|
 Offset (mV)	|<5	|2.1	|2.5|
-|ganthia|pranav|jyoti|
 
 
 Sample simulation plot:
@@ -139,3 +138,4 @@ MIT License
 
 “Analog design is where art meets engineering.” 🎨⚙️
 
+![Untitled](https://github.com/user-attachments/assets/3537f78c-097f-46e9-a7f4-abca1cccd39c)
