@@ -12,16 +12,17 @@ Timings: 10:00am–1:00pm, 2:30pm–5:30pm ⏰
 Resource Persons: Dr. Saroj Rout, Prof. Prasant Swain, Mrinal Das 👨‍🏫
 
 ## 🗂️ Table of Contents
-Project Overview
-Design Flow
-Tools Used
-Lab Modules
-Results & Analysis
-How to Run
-Resources
-Acknowledgements
-License
-
+<ul>
+    <li>Project Overview</li>
+    <li>Design Flow</li>
+    <li>Tools Used</li>
+    <li>ab Modules</li>
+    <li>Results & Analysis</li>
+    <li>How to Run</li>
+    <li>Resources</li>
+    <li>Acknowledgements</li>
+    <li>License</li>
+</ul>
 ## 🚀 Project Overview
 The internship covered the complete analog IC design flow:
 
