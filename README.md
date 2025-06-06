@@ -33,7 +33,7 @@ Acknowledgements
 
 License
 
-##🚀 Project Overview
+## 🚀 Project Overview
 The internship covered the complete analog IC design flow:
 
 📐 Specification & Topology Selection
@@ -46,7 +46,7 @@ The internship covered the complete analog IC design flow:
 
 🔬 Post-Layout Simulation
 
-##🔄 Design Flow
+## 🔄 Design Flow
 text
 graph TD;
     A[Specification] --> B[Schematic Design]
@@ -55,7 +55,8 @@ graph TD;
     D --> E[DRC/LVS]
     E --> F[Post-Layout Simulation]
     F --> G[Documentation]
-🛠️ Tools Used
+
+##🛠️ Tools Used
 Cadence Virtuoso (Schematic/Layout) 🖥️
 
 LTspice (Simulation) ⚡
@@ -66,7 +67,7 @@ Python/Matlab (Data analysis) 📊
 
 Skywater 130nm PDK 🏭
 
-##🧪 Lab Modules
+## 🧪 Lab Modules
 Lab 1: CMOS Inverter Design
 Schematic and DC transfer characteristics
 
@@ -92,7 +93,7 @@ Offset, speed analysis, transient simulation
 Lab 7: Automation Scripts
 Python scripts for batch simulation and plotting
 
-##📈 Results & Analysis
+## 📈 Results & Analysis
 |Metric	Target	|Pre-Layout	|Post-Layout|
 |...............|...........|...........|
 |DC Gain (dB)|	>60|	72|	68|
@@ -113,7 +114,7 @@ Follow /docs/layout_instructions.md for DRC/LVS.
 
 Run simulation scripts in the /scripts folder.
 
-##📚 Resources
+## 📚 Resources
 Textbooks:
 
 T. C. Carusone, D. A. Johns, K. A. Martin, Analog Integrated Circuit Design
@@ -130,10 +131,10 @@ OPA344 Datasheet
 
 Schematic/Layout Tutorials (Xschem, ngspice, Magic)
 
-##🙏 Acknowledgements
+## 🙏 Acknowledgements
 Special thanks to Dr. Saroj Rout, Prof. Prasant Swain, and Mrinal Das for their mentorship, and to the Advanced VLSI Lab team for a collaborative learning environment.
 
-##📄 License
+## 📄 License
 MIT License
 
 “Analog design is where art meets engineering.” 🎨⚙️
