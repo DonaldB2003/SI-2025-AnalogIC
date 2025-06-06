@@ -138,4 +138,3 @@ MIT License
 
 “Analog design is where art meets engineering.” 🎨⚙️
 
-![Untitled](https://github.com/user-attachments/assets/3537f78c-097f-46e9-a7f4-abca1cccd39c)
