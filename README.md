@@ -120,7 +120,7 @@ Run simulation scripts in the /scripts folder.
 
 ### Useful Docs:
 <ul>
-    <li>Skywater PDK Manual</li>
+    <li>Skywater PDK Manual https://github.com/silicon-vlsi/SI-2025-AnalogIC/blob/main/docs/skywater-pdk-readthedocs-io-en-main.pdf</li>
     <li>OPA344 Datasheet</li>
     <li>Schematic/Layout Tutorials (Xschem, ngspice, Magic)</li>
 </ul>
