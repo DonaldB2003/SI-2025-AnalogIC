@@ -61,22 +61,29 @@ graph TD;
 ### Lab 1: CMOS Inverter Design
 Schematic and DC transfer characteristics
 
-![CMOS Inverter Schematic](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/inverter 2: Current Mirror
+![CMOS Inverter Schematic](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/inverter) 
 
+### Lab 2: Current Mirror
 Simple and cascode current mirrors
 
-![Current Mirror Layout](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/current 3: Differential Pair
+![Current Mirror Layout](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/current)
+
+### Lab 3: Differential Pair
 
 Biasing, common-mode, and differential-mode gain
 
 ### Lab 4: Two-Stage Op-Amp
 Schematic, frequency response, phase margin
 
-![Op-Amp Schematic](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/opamp_s 5: Layout of Analog Cells
+![Op-Amp Schematic](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/opamp_s) 
+
+### Lab 5: Layout of Analog Cells
 
 Matching techniques, parasitic extraction
 
-![Analog Cell Layout](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/analog 6: Comparator Design
+![Analog Cell Layout](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/analog) 
+
+### Lab 6 : Comparator Design
 
 Offset, speed analysis, transient simulation
 
