@@ -137,5 +137,4 @@ Here is the link of full course described by Dr. Saroj Rout https://github.com/s
 MIT License
 
 “Analog design is where art meets engineering.” 🎨⚙️
-![Untitled](https://github.com/user-attachments/assets/3fadcb52-bf92-48d6-a04f-1ee52d5939a7)
 
