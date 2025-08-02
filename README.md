@@ -44,20 +44,20 @@ Analog IC Design is a branch of electronics engineering focused on designing int
     <li>Skywater 130nm PDK 🏭</li>
 </ul>
 
-## 🎤 What is a MEMS Microphone?
+# 🎤 What is a MEMS Microphone?
 
 A MEMS microphone (Micro-Electro-Mechanical Systems microphone) is a tiny microphone built using semiconductor fabrication techniques. It converts acoustic pressure (sound) into an electrical signal using a microscale diaphragm and capacitive sensing—all integrated on a silicon chip.
 
 <img width="778" height="410" alt="MEMS" src="https://github.com/user-attachments/assets/725762a8-2163-4d5c-a789-c7044905ab21" />
 
 
-### 💡 How It Works
+## 💡 How It Works
 
 A thin diaphragm vibrates when sound waves hit it.
 These vibrations change the capacitance between the diaphragm and a fixed backplate.
 An integrated ASIC (Application-Specific Integrated Circuit) senses this change and outputs an electrical signal, either analog or digital.
 
-### 🏗️MEMS USB Microphone
+## 🏗️MEMS USB Microphone
 ![MEMS_MIC](https://github.com/user-attachments/assets/7eb3705e-a672-40be-91d9-1d0d5f5f77fa)
 
 - **SPL to Pressure Conversion**:
@@ -69,16 +69,16 @@ $Pressure (Pa) = 10^{\frac{60 - 94}{20}} = 19.95 \times 10^{-3} \ Pa$
 $V_{out(peak)} = 2 \times 19.95 \times 10^{-3} \times 10^{\frac{-44}{20}} = \mathbf{0.178 \ mV_{pk}}$
 
 
-#### Schematic
+### Schematic
 
 <img width="1799" height="917" alt="image" src="https://github.com/user-attachments/assets/6ba7c98e-0302-4851-8ae8-2d3180e895bf" />
 
 
-### Laplace-Domain Analysis of Microphone
+## Laplace-Domain Analysis of Microphone
 
 <img width="1314" height="1401" alt="laplace domain analysis" src="https://github.com/user-attachments/assets/5af73271-55a6-467e-9dee-e5887c5fae1c" />
 
-## Thevenin Equivalent Circuit Model of a MEMS Microphone
+# Thevenin Equivalent Circuit Model of a MEMS Microphone
 
 <img width="2774" height="1387" alt="Thevenin's Model of a Microphone" src="https://github.com/user-attachments/assets/c99deb69-3d43-4ae8-af3a-bea33cc86961" />
 This schematic models a MEMS microphone using its Thevenin equivalent: an AC voltage source in series with a 380 Ω output resistance. The signal is AC-coupled and amplified through an inverting op-amp configuration with a band-pass response. It includes ngspice commands for operating point and future frequency-domain simulation.
@@ -86,22 +86,22 @@ This schematic models a MEMS microphone using its Thevenin equivalent: an AC vol
 
 
 
-## Theveninn equivalent using Op-Amp
+# Theveninn equivalent using Op-Amp
 
 <img width="1621" height="1158" alt="Thevenin's equivalent using Op-Amp" src="https://github.com/user-attachments/assets/37db54cb-9307-450b-a132-db497e6ed540" />
 
 
-## High pass circuit using Op-Amp
+# High pass circuit using Op-Amp
 
-### Schematic
+## Schematic
 
 <img width="1363" height="855" alt="highpass_filter" src="https://github.com/user-attachments/assets/ab780edc-712d-4e7b-b685-8d48bacb5b22" /> 
 
-### Output
+## Output
 
 <img width="1400" height="1069" alt="highpass_output" src="https://github.com/user-attachments/assets/74cbdb36-ea5b-45b2-a093-702d57220e88" />
 
-#### High-Pass Filter Cutoff Frequency
+### High-Pass Filter Cutoff Frequency
 
 Formed by capacitor C₁ = 4.7 µF and resistor R₁ = 5 kΩ.
 
@@ -112,15 +112,17 @@ $$ f_c = \frac{1}{2\pi \times 5 \times 10^{3} \times 4.7 \times 10^{-6}} \approx
 ✅ Cutoff Frequency ≈ 6.77 Hz
 Blocks DC and very low frequencies, passes voice-range signals.
 
-## Current Mirror Circuit
+# Current Mirror Circuit
 <img width="1773" height="762" alt="current_mirror" src="https://github.com/user-attachments/assets/94286940-de73-4dc8-9144-bf944e2fec47" />
 
-## Design of Differential amplifier
+# Design of Differential amplifier
 <img width="1250" height="727" alt="image" src="https://github.com/user-attachments/assets/cc1c3e06-8b4b-426a-8961-ded35e4035c5" />
 
-## NMOS OP-AMP
+# NMOS OP-AMP
 ![nmos_opam](https://github.com/user-attachments/assets/1779587d-028b-48a4-b763-809f5eab6ea1)
 
+# Simulating Diode Behavior in Ngspice
+![diode](https://github.com/user-attachments/assets/2747f2f7-caa0-4d3d-b96e-d43dcb1b292f)
 
 # Siliwiz
 
