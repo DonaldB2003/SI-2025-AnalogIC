@@ -104,8 +104,13 @@ $$ f_c = \frac{1}{2\pi \times 5 \times 10^{3} \times 4.7 \times 10^{-6}} \approx
 ✅ Cutoff Frequency ≈ 6.77 Hz
 Blocks DC and very low frequencies, passes voice-range signals.
 
+## Siliwiz
 
-## 🎤 Interfacing MEMS Microphone with Digilent Analog Discovery 2
+<img width="1766" height="858" alt="siliwiz2" src="https://github.com/user-attachments/assets/62d275b7-ed63-4add-8714-af72448bd30d" />
+
+- SiliWiz is a free, browser-based educational tool that visualizes how semiconductors and integrated circuits are fabricated at the polygon level. It allows users to draw transistor layouts (NMOS, PMOS), resistors, capacitors, and even CMOS logic gates—and instantly view the SPICE simulation and extracted results
+
+## 🔌 Interfacing MEMS Microphone with Digilent Analog Discovery 2
 
 In this experiment, the Digilent Analog Discovery 2 was employed to capture and analyze the analog output of a MEMS microphone. The microphone was connected using jumper wires to the device’s analog input channels. Real-time waveforms produced by ambient sound were visualized using the WaveForms software. This configuration enabled observation of the microphone’s signal behavior and facilitated analysis of its frequency response.
 
