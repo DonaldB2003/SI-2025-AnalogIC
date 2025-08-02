@@ -105,62 +105,18 @@ $$ f_c = \frac{1}{2\pi \times 5 \times 10^{3} \times 4.7 \times 10^{-6}} \approx
 Blocks DC and very low frequencies, passes voice-range signals.
 
 
+## 🎤 Interfacing MEMS Microphone with Analog Discovery 2
+
+In this experiment, I used a Digilent Analog Discovery 2 to capture and analyze the analog output of a MEMS microphone. The microphone was connected via jumper wires to the input channels of the device. Using WaveForms software, I observed the real-time waveform generated from ambient sounds. This setup allowed me to visualize the microphone's analog signal response and analyze its frequency characteristics.
 
 
-## 🧪 Lab Modules
-### Lab 1: CMOS Inverter Design
-Schematic and DC transfer characteristics
+   ### ✅ Tools Used:
 
-![CMOS Inverter Schematic](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/inverter) 
-
-### Lab 2: Current Mirror
-Simple and cascode current mirrors
-
-![Current Mirror Layout](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/current)
-
-### Lab 3: Differential Pair
-
-Biasing, common-mode, and differential-mode gain
-
-### Lab 4: Two-Stage Op-Amp
-Schematic, frequency response, phase margin
-
-![Op-Amp Schematic](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/opamp_s)
-
-### Lab 5: Layout of Analog Cells
-
-Matching techniques, parasitic extraction
-
-![Analog Cell Layout](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/analog)
-
-### Lab 6 : Comparator Design
-
-Offset, speed analysis, transient simulation
-
-### Lab 7: Automation Scripts
-Python scripts for batch simulation and plotting
-
-## 📈 Results & Analysis
-|Metric	Target	|Pre-Layout	|Post-Layout|
-|-----------------|-----------|-----------|
-|DC Gain (dB)|	>60|	72|	68|
-|UGB (MHz)	|>10	|15	|13.5|
-|Phase Margin (°)|	>60|	75	|70|
-|Power (µW)|	<500|	420|	430|
-Offset (mV)	|<5	|2.1	|2.5|
+  - MEMS Analog Microphone
+  - Digilent Analog Discovery 2
+  - WaveForms Software
 
 
-Sample simulation plot:
-
-![Gain vs Frequency Plot](https://github.com/silicon-vlsi/SI-2025-AnalogIC/raw/main/images/gain_plot.png to Run
-
-Clone this repository.
-
-Open schematic/layout files in Cadence Virtuoso or LTspice.
-
-Follow /docs/layout_instructions.md for DRC/LVS.
-
-Run simulation scripts in the /scripts folder.
 
 ## 📚 Resources
 ### Textbooks:
