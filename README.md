@@ -63,7 +63,7 @@ $V_{out(peak)} = 2 \times 19.95 \times 10^{-3} \times 10^{\frac{-44}{20}} = \mat
 
 ### Schematic
 
-<img width="801" height="769" alt="MEMS Schematic" src="https://github.com/user-attachments/assets/90f3eeca-8d9e-4cbd-a2ab-f19851f42d26" />
+<img width="1799" height="917" alt="image" src="https://github.com/user-attachments/assets/6ba7c98e-0302-4851-8ae8-2d3180e895bf" />
 
 
 ## Laplace-Domain Analysis of Microphone
