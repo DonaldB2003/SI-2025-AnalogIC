@@ -1,62 +1,111 @@
-# 🛠️ SI-2025-AnalogIC-Design Internship
+# SI-2025-Analaog_IC_DESIGN-SU
+ 🗄️ Repository for summer internship 2025 "Analog and IC Design"
+ 
 ## 📝 Abstract
 This repository documents my summer internship journey (June 2025) at Silicon University’s Advanced VLSI Lab, focusing on the design, simulation, and layout of Analog Integrated Circuits (ICs). The program emphasized hands-on learning with industry-standard tools, covering everything from device physics to post-layout verification. The highlight was the design and analysis of a two-stage CMOS operational amplifier, equipping me with practical skills for a career in VLSI and semiconductor technology.
 
 ## 📚 Introduction
-Analog ICs are the backbone of real-world signal processing, powering applications from sensor interfaces to communications. This internship offered a structured exploration of analog design, blending theory with practical labs using Cadence Virtuoso, LTspice, and open-source EDA tools.
+Participating in the Analog Integrated Circuit (IC) Design Summer Internship 2025 (SI-2025-AnalogIC) at Silicon University, with hands-on experience in analog IC design using tools such as Xschem, Ngspice, and the Skywater 130nm PDK. The internship includes daily tutorials, assignments, and mentorship from faculty and industry professionals, emphasizing a blend of theoretical learning and practical application to develop core skills relevant to the semiconductor industry.
 
 ## 🏛️ Internship Details
-Venue: Room 656, 5th Floor, New Admin Building, Silicon University 🏢
-Duration: June 2nd – June 20th, 2025 📆
-Timings: 10:00am–1:00pm, 2:30pm–5:30pm ⏰
-Resource Persons: Dr. Saroj Rout, Prof. Prasant Swain, Mrinal Das 👨‍🏫
+- Venue: Room 656, 5th Floor, New Admin Building, Silicon University 🏢
+- Duration: June 2nd – June 20th, 2025 📆
+- Timings: 10:00am–1:00pm, 2:30pm–5:30pm ⏰
+- Resource Persons: Dr. Saroj Rout, Prof. Prasant Swain, Mrinal Das 👨‍🏫
 
-## 🗂️ Table of Contents
-<ul>
-    <li>Project Overview</li>
-    <li>Design Flow</li>
-    <li>Tools Used</li>
-    <li>ab Modules</li>
-    <li>Results & Analysis</li>
-    <li>How to Run</li>
-    <li>Resources</li>
-    <li>Acknowledgements</li>
-    <li>License</li>
-</ul>
+## 🧠 What is Analog IC Design?
 
-## 🚀 Project Overview
-The internship covered the complete analog IC design flow:
+Analog IC Design is a branch of electronics engineering focused on designing integrated circuits that process continuous signals, such as voltage, current, or frequency. Unlike digital circuits that handle binary logic (0s and 1s), analog circuits deal with real-world, varying signals like audio, radio waves, or sensor outputs.
 
-📐 Specification & Topology Selection
+### 🔍 Why Analog IC Design?
+- Real-World Interface: Bridges the gap between physical signals and digital systems
+- Power Efficiency: Crucial for low-power and high-performance applications
+- Signal Fidelity: Maintains the accuracy of sensitive signals, like ECG or RF
 
-📝 Schematic Entry
-
-⚡ Simulation (DC, AC, transient, noise)
-
-🧩 Layout & Verification (DRC, LVS)
-
-🔬 Post-Layout Simulation
-
-## 🔄 Design Flow
-text
-graph TD;
-    A[Specification] --> B[Schematic Design]
-    B --> C[Simulation]
-    C --> D[Layout]
-    D --> E[DRC/LVS]
-    E --> F[Post-Layout Simulation]
-    F --> G[Documentation]
-
-
+### 🔍 Typical Applications
+- 🎧 Audio amplifiers
+- 📡 RF front-ends (radios, wireless systems)
+- 🔋 Power management (LDOs, DC-DC converters)
+- 📷 Sensor readout circuits (e.g., image or temperature sensors)
+- 🔗 Signal conversion (ADC/DAC interfaces)
 
 ## 🛠️ Tools Used
 <ul>
-    <li>Cadence Virtuoso (Schematic/Layout) 🖥️</li>
-    <li>-LTspice (Simulation) ⚡</li>
     <li>Magic VLSI, Xschem, ngspice (Open-source EDA) 🧰</li>
     <li>Python/Matlab (Data analysis) 📊</li>
     <li>Skywater 130nm PDK 🏭</li>
 </ul>
+
+## 🎤 What is a MEMS Microphone?
+
+A MEMS microphone (Micro-Electro-Mechanical Systems microphone) is a tiny microphone built using semiconductor fabrication techniques. It converts acoustic pressure (sound) into an electrical signal using a microscale diaphragm and capacitive sensing—all integrated on a silicon chip.
+
+<img width="778" height="410" alt="MEMS" src="https://github.com/user-attachments/assets/deec6ccb-49a0-40a5-bb78-804357ac58e1" />
+
+### 💡 How It Works
+
+A thin diaphragm vibrates when sound waves hit it.
+These vibrations change the capacitance between the diaphragm and a fixed backplate.
+An integrated ASIC (Application-Specific Integrated Circuit) senses this change and outputs an electrical signal, either analog or digital.
+
+
+
+## 🏗️MEMS USB Microphone
+
+**SPL to Pressure Conversion**:
+
+$Pressure (Pa) = 10^{\frac{60 - 94}{20}} = 19.95 \times 10^{-3} \ Pa$
+
+**Output Voltage (Peak):**
+
+$V_{out(peak)} = 2 \times 19.95 \times 10^{-3} \times 10^{\frac{-44}{20}} = \mathbf{0.178 \ mV_{pk}}$
+
+
+### Schematic
+
+<img width="801" height="769" alt="MEMS Schematic" src="https://github.com/user-attachments/assets/90f3eeca-8d9e-4cbd-a2ab-f19851f42d26" />
+
+
+## Laplace-Domain Analysis of Microphone
+
+<img width="1314" height="1401" alt="laplace domain analysis" src="https://github.com/user-attachments/assets/5af73271-55a6-467e-9dee-e5887c5fae1c" />
+
+## Thevenin Equivalent Circuit Model of a MEMS Microphone
+
+<img width="2774" height="1387" alt="Thevenin's Model of a Microphone" src="https://github.com/user-attachments/assets/c99deb69-3d43-4ae8-af3a-bea33cc86961" />
+This schematic models a MEMS microphone using its Thevenin equivalent: an AC voltage source in series with a 380 Ω output resistance. The signal is AC-coupled and amplified through an inverting op-amp configuration with a band-pass response. It includes ngspice commands for operating point and future frequency-domain simulation.
+
+
+
+
+## Theveninn equivalent using Op-Amp
+
+<img width="1621" height="1158" alt="Thevenin's equivalent using Op-Amp" src="https://github.com/user-attachments/assets/37db54cb-9307-450b-a132-db497e6ed540" />
+
+
+## High pass circuit using Op-Amp
+
+### Schematic
+
+<img width="1363" height="855" alt="highpass_filter" src="https://github.com/user-attachments/assets/ab780edc-712d-4e7b-b685-8d48bacb5b22" /> 
+
+### Output
+
+<img width="1400" height="1069" alt="highpass_output" src="https://github.com/user-attachments/assets/74cbdb36-ea5b-45b2-a093-702d57220e88" />
+
+#### High-Pass Filter Cutoff Frequency
+
+Formed by capacitor C₁ = 4.7 µF and resistor R₁ = 5 kΩ.
+
+$$ f_c (\text{Hz}) = \frac{1}{2\pi R_1 C_1} $$
+
+$$ f_c = \frac{1}{2\pi \times 5 \times 10^{3} \times 4.7 \times 10^{-6}} \approx \mathbf{6.77\,Hz} $$
+
+✅ Cutoff Frequency ≈ 6.77 Hz
+Blocks DC and very low frequencies, passes voice-range signals.
+
+
+
 
 ## 🧪 Lab Modules
 ### Lab 1: CMOS Inverter Design
