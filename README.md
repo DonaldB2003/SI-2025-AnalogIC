@@ -1,13 +1,13 @@
 # SI-2025-Analaog_IC_DESIGN-SU
  🗄️ Repository for summer internship 2025 "Analog and IC Design"
  
-## 📝 Abstract
+# 📝 Abstract
 This repository documents my summer internship journey (June 2025) at Silicon University’s Advanced VLSI Lab, focusing on the design, simulation, and layout of Analog Integrated Circuits (ICs). The program emphasized hands-on learning with industry-standard tools, covering everything from device physics to post-layout verification. The highlight was the design and analysis of a two-stage CMOS operational amplifier, equipping me with practical skills for a career in VLSI and semiconductor technology.
 
-## 📚 Introduction
+# 📚 Introduction
 Participating in the Analog Integrated Circuit (IC) Design Summer Internship 2025 (SI-2025-AnalogIC) at Silicon University, with hands-on experience in analog IC design using tools such as Xschem, Ngspice, and the Skywater 130nm PDK. The internship includes daily tutorials, assignments, and mentorship from faculty and industry professionals, emphasizing a blend of theoretical learning and practical application to develop core skills relevant to the semiconductor industry.
 
-## 🏛️ Internship Details
+# 🏛️ Internship Details
 - Venue: Room 656, 5th Floor, New Admin Building, Silicon University 🏢
 - Duration: June 2nd – June 20th, 2025 📆
 - Timings: 10:00am–1:00pm, 2:30pm–5:30pm ⏰
@@ -48,9 +48,8 @@ A thin diaphragm vibrates when sound waves hit it.
 These vibrations change the capacitance between the diaphragm and a fixed backplate.
 An integrated ASIC (Application-Specific Integrated Circuit) senses this change and outputs an electrical signal, either analog or digital.
 
-
-
 ## 🏗️MEMS USB Microphone
+![MEMS_MIC](https://github.com/user-attachments/assets/7eb3705e-a672-40be-91d9-1d0d5f5f77fa)
 
 **SPL to Pressure Conversion**:
 
@@ -128,14 +127,14 @@ In this experiment, the Digilent Analog Discovery 2 was employed to capture and 
 
 
 
-## 📚 Resources
-### Textbooks:
+# 📚 Resources
+## Textbooks:
 <ul>
     <li>T. C. Carusone, D. A. Johns, K. A. Martin, Analog Integrated Circuit Design</li>
     <li>John P. Uyemura, CMOS Logic Circuit Design</li>
     <li>R. Jacob Baker, CMOS: Circuit Design, Layout, and Simulation</li>
 
-### Useful Docs:
+## Useful Docs:
 <ul>
     <li>Skywater PDK Manual https://github.com/silicon-vlsi/SI-2025-AnalogIC/blob/main/docs/skywater-pdk-readthedocs-io-en-main.pdf</li>
     <li>OPA344 Datasheet</li>
@@ -143,13 +142,13 @@ In this experiment, the Digilent Analog Discovery 2 was employed to capture and 
 </ul>
 
 
-## 🙏 Acknowledgments:
+# 🙏 Acknowledgments:
 This program would not have been possible without the guidance and support of my mentors *Dr. Saroj Rout* and teammates .Your expertise and encouragement have been instrumental in my learning and development.
 
 Here is the link of full course described by Dr. Saroj Rout https://github.com/silicon-vlsi/SI-2025-AnalogIC
 
 
-## 📄 License
+# 📄 License
 MIT License
 
 “Analog design is where art meets engineering.” 🎨⚙️
