@@ -20,18 +20,6 @@ Participating in the Analog Integrated Circuit (IC) Design Summer Internship 202
  - Experimental understanding of device behavior and circuit simulation
  - Exposure to open-source industry-relevant EDA toolchains
 
-# Table Of Content
-- [🧠 What is Analog IC Design?](#🧠-What-is-Analog-IC-Desig)
-  - [🔍 Why Analog IC Design?](#🔍-Why-Analog-IC-Design?)
-  - [Typical Applications](#Typical-Applications)
-    
-- [🛠️ Tools Used](#🛠️-Tools-Used)
-- [🎤 What is a MEMS Microphone?](#🎤-What-is-a-MEMS-Microphone?)
- - [💡 How It Works](#💡-How-It-Works)
- - [### 🏗️MEMS USB Microphone](#🏗️MEMS-USB-Microphone)
-- [](#)
-- [](#)
-- [](#)
 
 ## 🧠 What is Analog IC Design?
 
