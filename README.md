@@ -115,7 +115,7 @@ In this experiment, the Digilent Analog Discovery 2 was employed to capture and 
   - MEMS Analog Microphone
   - Digilent Analog Discovery 2
   - WaveForms Software
-![IMG-20250701-WA0002](https://github.com/user-attachments/assets/20690d39-781f-42a6-97b8-c5c899cb5ac7)
+![digilent](https://github.com/user-attachments/assets/3a70df90-69ef-428d-bd38-f8ea4dcb81f5)
 
 - Waveform Software Simulation using Digilent Analog Discovery
   - Generating a sinewave of 1000 Hz
