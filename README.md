@@ -21,7 +21,7 @@ Participating in the Analog Integrated Circuit (IC) Design Summer Internship 202
  - Exposure to open-source industry-relevant EDA toolchains
 
 
-## 🧠 What is Analog IC Design?
+# 🧠 What is Analog IC Design?
 
 Analog IC Design is a branch of electronics engineering focused on designing integrated circuits that process continuous signals, such as voltage, current, or frequency. Unlike digital circuits that handle binary logic (0s and 1s), analog circuits deal with real-world, varying signals like audio, radio waves, or sensor outputs.
 
