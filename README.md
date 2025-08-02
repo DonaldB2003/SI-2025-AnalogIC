@@ -1,6 +1,8 @@
 # SI-2025-Analaog_IC_DESIGN-SU
  🗄️ Repository for summer internship 2025 "Analog and IC Design"
  
+ ![IMG-20250618-WA0005](https://github.com/user-attachments/assets/aade2f12-c887-4d1d-a7f1-78660075a613)
+ 
 # 📝 Abstract
 This repository documents my summer internship journey (June 2025) at Silicon University’s Advanced VLSI Lab, focusing on the design, simulation, and layout of Analog Integrated Circuits (ICs). The program emphasized hands-on learning with industry-standard tools, covering everything from device physics to post-layout verification. The highlight was the design and analysis of a two-stage CMOS operational amplifier, equipping me with practical skills for a career in VLSI and semiconductor technology.
 
@@ -40,7 +42,8 @@ Analog IC Design is a branch of electronics engineering focused on designing int
 
 A MEMS microphone (Micro-Electro-Mechanical Systems microphone) is a tiny microphone built using semiconductor fabrication techniques. It converts acoustic pressure (sound) into an electrical signal using a microscale diaphragm and capacitive sensing—all integrated on a silicon chip.
 
-<img width="778" height="410" alt="MEMS" src="https://github.com/user-attachments/assets/deec6ccb-49a0-40a5-bb78-804357ac58e1" />
+<img width="778" height="410" alt="MEMS" src="https://github.com/user-attachments/assets/725762a8-2163-4d5c-a789-c7044905ab21" />
+
 
 ### 💡 How It Works
 
@@ -103,18 +106,28 @@ $$ f_c = \frac{1}{2\pi \times 5 \times 10^{3} \times 4.7 \times 10^{-6}} \approx
 ✅ Cutoff Frequency ≈ 6.77 Hz
 Blocks DC and very low frequencies, passes voice-range signals.
 
-## Siliwiz
+## Current Mirror Circuit
+<img width="1773" height="762" alt="current_mirror" src="https://github.com/user-attachments/assets/94286940-de73-4dc8-9144-bf944e2fec47" />
+
+## Design of Differential amplifier
+<img width="1250" height="727" alt="image" src="https://github.com/user-attachments/assets/cc1c3e06-8b4b-426a-8961-ded35e4035c5" />
+
+## NMOS OP-AMP
+![nmos_opam](https://github.com/user-attachments/assets/1779587d-028b-48a4-b763-809f5eab6ea1)
+
+
+# Siliwiz
 
 <img width="1766" height="858" alt="siliwiz2" src="https://github.com/user-attachments/assets/62d275b7-ed63-4add-8714-af72448bd30d" />
 
 SiliWiz is a free, browser-based educational tool that visualizes how semiconductors and integrated circuits are fabricated at the polygon level. It allows users to draw transistor layouts (NMOS, PMOS), resistors, capacitors, and even CMOS logic gates—and instantly view the SPICE simulation and extracted results
 
-## 🔌 Interfacing MEMS Microphone with Digilent Analog Discovery 2
+# 🔌 Interfacing MEMS Microphone with Digilent Analog Discovery 2
 
 In this experiment, the Digilent Analog Discovery 2 was employed to capture and analyze the analog output of a MEMS microphone. The microphone was connected using jumper wires to the device’s analog input channels. Real-time waveforms produced by ambient sound were visualized using the WaveForms software. This configuration enabled observation of the microphone’s signal behavior and facilitated analysis of its frequency response.
 
 
-   ### ✅ Tools Used:
+   ## ✅ Tools Used:
 
   - MEMS Analog Microphone
   - Digilent Analog Discovery 2
