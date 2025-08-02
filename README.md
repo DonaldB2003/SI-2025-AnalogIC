@@ -108,7 +108,7 @@ Blocks DC and very low frequencies, passes voice-range signals.
 
 <img width="1766" height="858" alt="siliwiz2" src="https://github.com/user-attachments/assets/62d275b7-ed63-4add-8714-af72448bd30d" />
 
-- SiliWiz is a free, browser-based educational tool that visualizes how semiconductors and integrated circuits are fabricated at the polygon level. It allows users to draw transistor layouts (NMOS, PMOS), resistors, capacitors, and even CMOS logic gates—and instantly view the SPICE simulation and extracted results
+SiliWiz is a free, browser-based educational tool that visualizes how semiconductors and integrated circuits are fabricated at the polygon level. It allows users to draw transistor layouts (NMOS, PMOS), resistors, capacitors, and even CMOS logic gates—and instantly view the SPICE simulation and extracted results
 
 ## 🔌 Interfacing MEMS Microphone with Digilent Analog Discovery 2
 
