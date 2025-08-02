@@ -21,11 +21,13 @@ Participating in the Analog Integrated Circuit (IC) Design Summer Internship 202
  - Exposure to open-source industry-relevant EDA toolchains
 
 # Table Of Content
-- [xyz](#🧠-What-is-Analog-IC-Desig)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+- [🧠 What is Analog IC Design?](#🧠-What-is-Analog-IC-Desig)
+  - [🔍 Why Analog IC Design?](#🔍-Why-Analog-IC-Design?)
+  - [Typical Applications](#Typical-Applications)
+- [🛠️ Tools Used](#🛠️-Tools-Used)
+- [🎤 What is a MEMS Microphone?](#🎤-What-is-a-MEMS-Microphone?)
+ - [💡 How It Works](#💡-How-It-Works)
+ - [### 🏗️MEMS USB Microphone](#🏗️MEMS-USB-Microphone)
 - [](#)
 - [](#)
 - [](#)
@@ -39,7 +41,7 @@ Analog IC Design is a branch of electronics engineering focused on designing int
 - Power Efficiency: Crucial for low-power and high-performance applications
 - Signal Fidelity: Maintains the accuracy of sensitive signals, like ECG or RF
 
-### 🔍 Typical Applications
+### Typical Applications
 - 🎧 Audio amplifiers
 - 📡 RF front-ends (radios, wireless systems)
 - 🔋 Power management (LDOs, DC-DC converters)
@@ -53,20 +55,20 @@ Analog IC Design is a branch of electronics engineering focused on designing int
     <li>Skywater 130nm PDK 🏭</li>
 </ul>
 
-# 🎤 What is a MEMS Microphone?
+## 🎤 What is a MEMS Microphone?
 
 A MEMS microphone (Micro-Electro-Mechanical Systems microphone) is a tiny microphone built using semiconductor fabrication techniques. It converts acoustic pressure (sound) into an electrical signal using a microscale diaphragm and capacitive sensing—all integrated on a silicon chip.
 
 <img width="778" height="410" alt="MEMS" src="https://github.com/user-attachments/assets/725762a8-2163-4d5c-a789-c7044905ab21" />
 
 
-## 💡 How It Works
+### 💡 How It Works
 
 A thin diaphragm vibrates when sound waves hit it.
 These vibrations change the capacitance between the diaphragm and a fixed backplate.
 An integrated ASIC (Application-Specific Integrated Circuit) senses this change and outputs an electrical signal, either analog or digital.
 
-## 🏗️MEMS USB Microphone
+### 🏗️MEMS USB Microphone
 ![MEMS_MIC](https://github.com/user-attachments/assets/7eb3705e-a672-40be-91d9-1d0d5f5f77fa)
 
 **SPL to Pressure Conversion**:
@@ -78,12 +80,12 @@ $Pressure (Pa) = 10^{\frac{60 - 94}{20}} = 19.95 \times 10^{-3} \ Pa$
 $V_{out(peak)} = 2 \times 19.95 \times 10^{-3} \times 10^{\frac{-44}{20}} = \mathbf{0.178 \ mV_{pk}}$
 
 
-### Schematic
+#### Schematic
 
 <img width="1799" height="917" alt="image" src="https://github.com/user-attachments/assets/6ba7c98e-0302-4851-8ae8-2d3180e895bf" />
 
 
-## Laplace-Domain Analysis of Microphone
+### Laplace-Domain Analysis of Microphone
 
 <img width="1314" height="1401" alt="laplace domain analysis" src="https://github.com/user-attachments/assets/5af73271-55a6-467e-9dee-e5887c5fae1c" />
 
