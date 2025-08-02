@@ -15,6 +15,21 @@ Participating in the Analog Integrated Circuit (IC) Design Summer Internship 202
 - Timings: 10:00am–1:00pm, 2:30pm–5:30pm ⏰
 - Resource Persons: Dr. Saroj Rout, Prof. Prasant Swain, Mrinal Das 👨‍🏫
 
+# Course Outcome
+ - Skill development in analog IC design workflow from concept to layout
+ - Experimental understanding of device behavior and circuit simulation
+ - Exposure to open-source industry-relevant EDA toolchains
+
+# Table Of Content
+- [xyz](#🧠-What-is-Analog-IC-Desig)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+
 ## 🧠 What is Analog IC Design?
 
 Analog IC Design is a branch of electronics engineering focused on designing integrated circuits that process continuous signals, such as voltage, current, or frequency. Unlike digital circuits that handle binary logic (0s and 1s), analog circuits deal with real-world, varying signals like audio, radio waves, or sensor outputs.
@@ -148,11 +163,12 @@ In this experiment, the Digilent Analog Discovery 2 was employed to capture and 
     <li>R. Jacob Baker, CMOS: Circuit Design, Layout, and Simulation</li>
 
 ## Useful Docs:
-<ul>
-    <li>Skywater PDK Manual https://github.com/silicon-vlsi/SI-2025-AnalogIC/blob/main/docs/skywater-pdk-readthedocs-io-en-main.pdf</li>
-    <li>OPA344 Datasheet</li>
-    <li>Schematic/Layout Tutorials (Xschem, ngspice, Magic)</li>
-</ul>
+- [Skywater PDK Manual](https://github.com/silicon-vlsi/SI-2025-AnalogIC/blob/main/docs/skywater-pdk-readthedocs-io-en-main.pdf)
+- [OPA344 Datasheet](https://www.ti.com/lit/ds/symlink/opa344.pdf)
+- [MEMS Microphone Datasheet](https://cdn.sparkfun.com/assets/0/5/8/b/1/SPH8878LR5H-1_Lovato_DS.pdf)
+- [Schematic: Sparkfun breakout board](https://cdn.sparkfun.com/assets/7/5/6/e/d/SparkFun_Analog_MEMS_Microphone_Breakout_SPH8878LR5H-1.pdf)
+- Schematic/Layout Tutorials (Xschem, ngspice, Magic)
+
 
 
 # 🙏 Acknowledgments:
