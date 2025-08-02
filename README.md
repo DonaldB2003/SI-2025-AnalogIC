@@ -105,9 +105,9 @@ $$ f_c = \frac{1}{2\pi \times 5 \times 10^{3} \times 4.7 \times 10^{-6}} \approx
 Blocks DC and very low frequencies, passes voice-range signals.
 
 
-## 🎤 Interfacing MEMS Microphone with Analog Discovery 2
+## 🎤 Interfacing MEMS Microphone with Digilent Analog Discovery 2
 
-In this experiment, I used a Digilent Analog Discovery 2 to capture and analyze the analog output of a MEMS microphone. The microphone was connected via jumper wires to the input channels of the device. Using WaveForms software, I observed the real-time waveform generated from ambient sounds. This setup allowed me to visualize the microphone's analog signal response and analyze its frequency characteristics.
+In this experiment, the Digilent Analog Discovery 2 was employed to capture and analyze the analog output of a MEMS microphone. The microphone was connected using jumper wires to the device’s analog input channels. Real-time waveforms produced by ambient sound were visualized using the WaveForms software. This configuration enabled observation of the microphone’s signal behavior and facilitated analysis of its frequency response.
 
 
    ### ✅ Tools Used:
@@ -115,6 +115,11 @@ In this experiment, I used a Digilent Analog Discovery 2 to capture and analyze 
   - MEMS Analog Microphone
   - Digilent Analog Discovery 2
   - WaveForms Software
+![IMG-20250701-WA0002](https://github.com/user-attachments/assets/20690d39-781f-42a6-97b8-c5c899cb5ac7)
+
+- Waveform Software Simulation using Digilent Analog Discovery
+  - Generating a sinewave of 1000 Hz
+![waveform](https://github.com/user-attachments/assets/3dd2fafe-b54b-4908-9a27-eabe600fe93d)
 
 
 
