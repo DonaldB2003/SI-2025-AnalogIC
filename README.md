@@ -147,17 +147,13 @@ In this experiment, the Digilent Analog Discovery 2 was employed to capture and 
 
 
 # 📚 Resources
-## Textbooks:
-<ul>
-    <li>T. C. Carusone, D. A. Johns, K. A. Martin, Analog Integrated Circuit Design</li>
-    <li>John P. Uyemura, CMOS Logic Circuit Design</li>
-    <li>R. Jacob Baker, CMOS: Circuit Design, Layout, and Simulation</li>
 
 ## Useful Docs:
 - [Skywater PDK Manual](https://github.com/silicon-vlsi/SI-2025-AnalogIC/blob/main/docs/skywater-pdk-readthedocs-io-en-main.pdf)
 - [OPA344 Datasheet](https://www.ti.com/lit/ds/symlink/opa344.pdf)
 - [MEMS Microphone Datasheet](https://cdn.sparkfun.com/assets/0/5/8/b/1/SPH8878LR5H-1_Lovato_DS.pdf)
 - [Schematic: Sparkfun breakout board](https://cdn.sparkfun.com/assets/7/5/6/e/d/SparkFun_Analog_MEMS_Microphone_Breakout_SPH8878LR5H-1.pdf)
+- [SI-2025-AnalogIC](https://github.com/silicon-vlsi/SI-2025-AnalogIC)
 - Schematic/Layout Tutorials (Xschem, ngspice, Magic)
 
 
