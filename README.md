@@ -38,14 +38,14 @@ Analog IC Design is a branch of electronics engineering focused on designing int
     <li>Skywater 130nm PDK 🏭</li>
 </ul>
 
-## 🎤 What is a MEMS Microphone?
+# 🎤 What is a MEMS Microphone?
 
 A MEMS microphone (Micro-Electro-Mechanical Systems microphone) is a tiny microphone built using semiconductor fabrication techniques. It converts acoustic pressure (sound) into an electrical signal using a microscale diaphragm and capacitive sensing—all integrated on a silicon chip.
 
 <img width="778" height="410" alt="MEMS" src="https://github.com/user-attachments/assets/725762a8-2163-4d5c-a789-c7044905ab21" />
 
 
-### 💡 How It Works
+## 💡 How It Works
 
 A thin diaphragm vibrates when sound waves hit it.
 These vibrations change the capacitance between the diaphragm and a fixed backplate.
