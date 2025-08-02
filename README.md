@@ -24,6 +24,7 @@ Participating in the Analog Integrated Circuit (IC) Design Summer Internship 202
 - [🧠 What is Analog IC Design?](#🧠-What-is-Analog-IC-Desig)
   - [🔍 Why Analog IC Design?](#🔍-Why-Analog-IC-Design?)
   - [Typical Applications](#Typical-Applications)
+    
 - [🛠️ Tools Used](#🛠️-Tools-Used)
 - [🎤 What is a MEMS Microphone?](#🎤-What-is-a-MEMS-Microphone?)
  - [💡 How It Works](#💡-How-It-Works)
