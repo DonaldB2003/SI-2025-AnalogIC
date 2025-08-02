@@ -60,11 +60,11 @@ An integrated ASIC (Application-Specific Integrated Circuit) senses this change 
 ### 🏗️MEMS USB Microphone
 ![MEMS_MIC](https://github.com/user-attachments/assets/7eb3705e-a672-40be-91d9-1d0d5f5f77fa)
 
-**SPL to Pressure Conversion**:
+- **SPL to Pressure Conversion**:
 
 $Pressure (Pa) = 10^{\frac{60 - 94}{20}} = 19.95 \times 10^{-3} \ Pa$
 
-**Output Voltage (Peak):**
+- **Output Voltage (Peak):**
 
 $V_{out(peak)} = 2 \times 19.95 \times 10^{-3} \times 10^{\frac{-44}{20}} = \mathbf{0.178 \ mV_{pk}}$
 
